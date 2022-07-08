@@ -1,0 +1,85 @@
+body{
+    font-family: Calibri,sans-serif;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(180deg,black,lightgrey);
+}
+header{
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(180deg,red,lightgrey);
+    font-size: 30px;
+    color: black;
+    padding-top: 40px;
+}
+header img{
+
+    display-inside: ruby;
+
+}
+nav{
+    display: inline-block;
+    padding: 30px ;
+    background: linear-gradient(180deg,lightgray,red);
+    width: 50%;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 10px 40px;
+    text-align: center;
+    transition: 1s ease;
+
+}
+
+nav a:hover{
+    background: linear-gradient(180deg,black,lightgray);
+    color: whitesmoke;
+    transition: 1s;
+    padding: 15px 45px;
+}
+div{
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+div img{
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+.button{
+    background-color: lightcoral;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+figure{
+    border: 5px solid black;
+    width: 500px;
+    padding: 15px;
+    background-color: lightgrey;
+    box-shadow: 0 0 20px black;
+    margin: 60px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    font-size: 20px;
+}
+footer{
+    background: linear-gradient(180deg,lightcoral,lightgrey);
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+ footer copy{
+    text-decoration: none;
+    background-color: black;
+}
