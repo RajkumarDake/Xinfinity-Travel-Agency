@@ -21,7 +21,7 @@ nav{
     display: inline-block;
     padding: 30px ;
     background: linear-gradient(180deg,lightgray,red);
-    width: 95%;
+    width: 100%;
 
 }
 nav a{
